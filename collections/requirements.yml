@@ -1,0 +1,10 @@
+---
+# collections/requirements.yml
+# @version v2025.2.8
+# @author Kevin Jeffery
+
+collections:
+- name: ibm.isam
+- name: https://github.com/kjeffery14/autom8.git
+  type: git
+  version: main
