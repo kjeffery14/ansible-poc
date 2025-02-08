@@ -1,0 +1,11 @@
+---
+# inventory/group_vars/isva.yml
+# @version v2025.2.8
+# @author Kevin Jeffery
+
+ansible_connection: ibm.isam.isam
+
+isva_base_activation: 
+isva_aac_activation:
+isva_fed_activation: 
+isva_firmware_iso: "C:\\VMWareISO\\Sec_Ver_Acc10.0.8_BVAISOFi_ML.iso"
