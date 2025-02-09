@@ -1,0 +1,12 @@
+---
+# playbooks/isva_autoconfigure_iso.yml
+# @version 2025.2.9.0
+# @author Kevin Jeffery
+
+- name: Generate Autoconfigure ISO for ISVA Appliances
+  hosts: isva
+  tasks:
+  - name: Include autoconfigure_iso role
+    ansible.building.include_role:
+      name: autom8.isamva.autoconfigure_iso
+    tags: always
