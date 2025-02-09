@@ -1,0 +1,9 @@
+---
+# vars/isamva.yml
+# @version v2025.1.28.0
+# @author Kevin Jeffery
+
+ansible_connection: ibm.isam.isam"
+ansible_isam_username: "{{ ct_creds1_username }}"
+ansible_isam_password: "{{ ct_creds1_password }}"
+ansible_isam_port: 443
