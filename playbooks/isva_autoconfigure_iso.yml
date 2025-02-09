@@ -4,6 +4,7 @@
 # @author Kevin Jeffery
 
 - name: Generate Autoconfigure ISO for ISVA Appliances
+  connection: local
   hosts: isamva
   tasks:
   - name: Include autoconfigure_iso role
