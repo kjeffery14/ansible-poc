@@ -6,6 +6,9 @@
 node_modules
 desktop.ini
 
+# Autoconfigure images in default location
+/playbooks/isamva
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
