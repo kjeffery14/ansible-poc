@@ -18,5 +18,3 @@ vm_memory: 4096
 vm_id: HFU4OPQP4CLVSN348R075GCT0DSQS1MR
 vm_cddvd1_path: "{{ isva_firmware_iso }}"
 vm_hdd1_size: 40
-
-isva_autoconfigure_iso: "{{ host_name }}.iso"
