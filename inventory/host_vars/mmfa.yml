@@ -3,7 +3,7 @@
 # @version v2025.2.9.0
 # @author Kevin Jeffery
 
-ansible_host: 192.168.43.103 
+ansible_host: 192.168.42.103 
 description: ISVA MMFA Appliance
 host_name: isva.mmfa.ibm.com
 ip_address: "{{ ansible_host}}"
