@@ -4,7 +4,7 @@
 # @author Kevin Jeffery
 
 - name: Generate Autoconfigure ISO for ISVA Appliances
-  hosts: isva
+  hosts: isamva
   tasks:
   - name: Include autoconfigure_iso role
     ansible.builtin.include_role:
