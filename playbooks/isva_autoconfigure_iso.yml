@@ -7,6 +7,6 @@
   hosts: isva
   tasks:
   - name: Include autoconfigure_iso role
-    ansible.building.include_role:
+    ansible.builtin.include_role:
       name: autom8.isamva.autoconfigure_iso
     tags: always
