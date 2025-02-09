@@ -1,6 +1,6 @@
 ---
 # inventory/host_vars/mmfa.yml
-# @version v2025.2.8
+# @version v2025.2.9.0
 # @author Kevin Jeffery
 
 ansible_host: 192.168.43.103 
@@ -8,7 +8,7 @@ description: ISVA MMFA Appliance
 host_name: isva.mmfa.ibm.com
 ip_address: "{{ ansible_host}}"
 ip_gateway: 192.168.42.2
-ip_netmast: 255.255.255.0
+ip_netmask: 255.255.255.0
 ip_address2: 192.168.42.104
 ip_hostname2: www.mmfa.ibm.com
 
